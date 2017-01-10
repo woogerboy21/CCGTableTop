@@ -10,6 +10,6 @@ QJsonObject ProtocolHandler::processJSONData(QJsonObject &json)
     qDebug() << "JSON Data: [ " << json << " ]";
     QJsonObject results;
     results["response"] = "Success";
-    results["reason"] = "Sample Reason";
+    results["reason"] = "Received String";
     return results;
 }

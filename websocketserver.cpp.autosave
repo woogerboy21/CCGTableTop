@@ -127,7 +127,7 @@ bool WebSocketServer::validateJSONSchema(QJsonObject &JSon)
                 if (m_debug) qDebug() << "...Object contains a RESPONSE-ID index";
                 if (JSon.contains("CODE")){
                     if (m_debug) qDebug() << "...Object contains a RESPONSE-CODE index";
-                    if (m_debug) qDebug() << "[+]Object appears to be a valide RESPONSE format";
+                    if (m_debug) qDebug() << "[+]Object appears to be a valid RESPONSE format";
                     return true;
                 }
     }
